@@ -1,0 +1,88 @@
+@import "boilerplate.less";
+
+.type-examples{
+  text-align: center;
+  overflow-y: scroll;
+
+  .type-specimen{
+    background: #fff;
+    color: @gray-8;
+    .title{
+      font-size: 2rem;
+    }
+    .subtitle{
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+    .attribution{
+      line-height: 3rem;
+
+    }
+    .quote{
+      font-size: 2rem;
+    }
+    .description{
+
+    }
+  }
+  .type-specimen:nth-of-type(1){
+    .title{
+      
+    }
+    .attribution{
+      color: @gray-6;
+      .source{
+        color: #A68776;
+      }
+    }
+    .description{
+
+    }
+  }
+    
+
+  .type-specimen:nth-of-type(2){
+    background: @gray-9;
+    color: @gray-2;
+    .title{
+      font-size: 3.6rem;
+    }
+    .subtitle{
+      color: #A68776;
+    }
+  
+  }
+  .type-specimen:nth-of-type(3){
+    background: @gray-4;
+    .attribution{
+      color: @gray-1;
+      .source{
+        color: @gray-8;
+      }
+    }
+    .quote{
+
+    }
+  }
+  .type-specimen:nth-of-type(4){
+    .attribution{
+      color: @gray-6;
+      .source{
+        color: @gray-9;
+      }
+    }
+  }
+  .type-specimen:nth-of-type(5){
+    color: @gray-1;
+    background: #A68776;
+    .title{
+      
+    }
+    .attribution{
+      color: #E7BEA4;
+      .source{
+        color: @gray-1;
+      }
+    }
+  }
+}

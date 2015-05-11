@@ -1,0 +1,95 @@
+/**********       COLORS       **********/
+/**********       MIXINS        **********/
+/**********       BASE        **********/
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "National Light";
+  font-size: 16px;
+  margin: 0;
+  color: white;
+  background-color: #1f1e1d;
+}
+.touch {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+.type-examples {
+  text-align: center;
+  overflow-y: scroll;
+}
+.type-examples .type-specimen {
+  background: #fff;
+  color: #1f1e1d;
+}
+.type-examples .type-specimen .title {
+  font-size: 2rem;
+}
+.type-examples .type-specimen .subtitle {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.type-examples .type-specimen .attribution {
+  line-height: 3rem;
+}
+.type-examples .type-specimen .quote {
+  font-size: 2rem;
+}
+.type-examples .type-specimen:nth-of-type(1) .attribution {
+  color: #666661;
+}
+.type-examples .type-specimen:nth-of-type(1) .attribution .source {
+  color: #A68776;
+}
+.type-examples .type-specimen:nth-of-type(2) {
+  background: #1a1918;
+  color: #f2f1f6;
+}
+.type-examples .type-specimen:nth-of-type(2) .title {
+  font-size: 3.6rem;
+}
+.type-examples .type-specimen:nth-of-type(2) .subtitle {
+  color: #A68776;
+}
+.type-examples .type-specimen:nth-of-type(3) {
+  background: #cccbc2;
+}
+.type-examples .type-specimen:nth-of-type(3) .attribution {
+  color: #fafafa;
+}
+.type-examples .type-specimen:nth-of-type(3) .attribution .source {
+  color: #1f1e1d;
+}
+.type-examples .type-specimen:nth-of-type(4) .attribution {
+  color: #666661;
+}
+.type-examples .type-specimen:nth-of-type(4) .attribution .source {
+  color: #1a1918;
+}
+.type-examples .type-specimen:nth-of-type(5) {
+  color: #fafafa;
+  background: #A68776;
+}
+.type-examples .type-specimen:nth-of-type(5) .attribution {
+  color: #E7BEA4;
+}
+.type-examples .type-specimen:nth-of-type(5) .attribution .source {
+  color: #fafafa;
+}
